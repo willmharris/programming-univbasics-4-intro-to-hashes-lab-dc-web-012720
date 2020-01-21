@@ -4,7 +4,6 @@ end
 
 def my_hash
  prices = { "bread" => 2.35, "milk" =>  3.00, "eggs" =>  2.15 }
- p prices
 end
 
 def pioneer
@@ -12,7 +11,7 @@ def pioneer
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  idhash = {:id = 1}
 end
 
 def my_hash_creator(key, value)
