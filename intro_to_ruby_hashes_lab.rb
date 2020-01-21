@@ -22,7 +22,7 @@ end
 
 def read_from_hash(hash, key)
   if hash[key] 
-    hash [key]
+    p hash [key]
   else puts "Nope!"
   end 
 end
