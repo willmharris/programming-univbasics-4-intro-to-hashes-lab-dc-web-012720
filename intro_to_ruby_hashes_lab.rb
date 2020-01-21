@@ -17,6 +17,7 @@ end
 def my_hash_creator(key, value)
   createdhash = {}
   createdhash[key] = value
+  p createdhash 
 end
 
 def read_from_hash(hash, key)
