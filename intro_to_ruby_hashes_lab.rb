@@ -22,14 +22,15 @@ end
 
 def read_from_hash(hash, key)
   if hash[key] 
-    p hash [key]
+    p hash[key]
   else puts "Nope!"
   end 
 end
 
 def update_counting_hash(hash, key)
-  if shipping_manifest["top hat"] shipping_manifest["top hat"] += 1 
-  else puts "Key not found!" 
+  if hash[key] 
+    hash[key] += 1 
+  else hash[key] = 1
   end
 end
   # given a hash an a key as parameters, return an updated hash
